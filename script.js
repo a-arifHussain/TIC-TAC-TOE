@@ -1,6 +1,6 @@
 let winningArray = [[0, 1, 2], [0, 3, 6], [0, 4, 8], [3, 4, 5], [1, 4, 7], [2, 5, 8], [6, 7, 8], [6, 4, 2]];
-let firstTurn="o"
-let turn = [...firstTurn];
+let firstTurn="x";
+let turn = firstTurn;
 let turnCount = 0;
 let anyWin = false;
 let winPopUp = document.querySelector(".winPopUp");
@@ -69,7 +69,7 @@ function checkWin() {
              if (btnbox[winningBox[0]].innerText === "x") {
                  xWinCount += 1;
                  player1Win.innerText = xWinCount;
-                 victoryLogo.style.backgroundImage = "url('xVictoryLogo.png')";
+                 victoryLogo.style.backgroundImage = "url('https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/xVictoryLogo.png?raw=true')";
                  winWord.innerText = "X";
                  resultMsg.innerText = `VICTORY ACHIEVED...!   ${playerX.toUpperCase()} WINS...!`;
 
@@ -79,7 +79,7 @@ function checkWin() {
              else {
                  yWinCount += 1;
                  player2Win.innerText = yWinCount;
-                 victoryLogo.style.backgroundImage = "url('oVictoryLogo.png')";
+                 victoryLogo.style.backgroundImage = "url('https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/oVictoryLogo.png?raw=true')";
                  winWord.innerText = "O";
                  resultMsg.innerText = `VICTORY ACHIEVED...!   ${playerO.toUpperCase()} WINS...!`;
 
@@ -104,7 +104,7 @@ function checkDraw() {
      if (turnCount=== 9) {
          resultMsg.innerText = "MATCH DRAW...!";
          winPopUp.style.visibility = "visible";   
-         victoryLogo.style.backgroundImage = "url('drawImg.png')";
+         victoryLogo.style.backgroundImage = "url('https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/drawImg.png?raw=true')";
    
         
 
@@ -162,5 +162,6 @@ quitBtn.addEventListener("click", () => {
     reSetGame();
     player2Win.innerText = 0;
     player1Win.innerText = 0;
+
 
 })
