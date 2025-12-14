@@ -23,7 +23,7 @@ body{
 }
 
 .container {
-    background-image: url("gameContainer.jpg");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/gameContainer.jpg?raw=true");
     background-size: cover;
     border-radius: 20px;
     width:650px;
@@ -53,13 +53,13 @@ body{
 #logoX{
     width: 60px;
     height: 60px;
-    background-image: url("imgX.jpg");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/imgX.jpg?raw=true");
     background-size: contain;
 }
 #logoO {
      width: 60px;
      height: 60px;
-    background-image: url("imgO.jpg");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/imgO.jpg?raw=true");
     background-size: contain;
  }
 
@@ -115,7 +115,7 @@ body{
 #player1-img{
     width: 50px;
     height: 53px;
-    background-image: url("player1.jpg");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/player1.jpg?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     /* border: 2px solid black; */
@@ -123,7 +123,7 @@ body{
 #player2-img {
     width: 50px;
     height: 55px;
-    background-image: url("player2.jpg");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/player2.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: contain;
     /* border: 2px solid black; */
@@ -137,7 +137,7 @@ body{
     height: 345px;
 
    
-    background-image: url("gameBox.jpg");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/gameBox.jpg?raw=true");
     filter: brightness(1.2);
     background-size: cover;
     display: flex;
@@ -261,7 +261,7 @@ body{
 .victory-Img{
     width: 100px;
     height: 100px;
-    background-image: url('xVictoryLogo.png');
+    background-image: url('https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/xVictoryLogo.png?raw=true');
     background-size: cover;
 }
 
@@ -325,7 +325,7 @@ body{
     height: 65px;
     display: flex;
     /* border: 2px solid black; */
-    background-image: url("vsImg3.png");
+    background-image: url("https://github.com/a-arifHussain/TIC-TAC-TOE/blob/main/image/vsImg3.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -379,4 +379,5 @@ body{
 #startGameBtn:hover{
     background-color: rgb(1, 104, 1);
 }
+
 
