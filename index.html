@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tak toe game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+       
+    <div class="container">
+        <div id="heading">
+            <div id="logoX"></div>
+             <h1>TIC-TAC-TOE</h1>
+            <div id="logoO"></div>
+
+
+
+        </div>
+
+        <div id="playerBox">
+            <div id="player1-box">
+              <div id="player1-img"></div>
+              <div id="player1-nameBox"><p id="player1-name">Player1</p><p>:</p> <p id="player1-win">0</p></div>
+            </div>
+            <div id="player2-box">
+              <div id="player2-img"></div>
+              <div id="player2-nameBOX"><p id="player2-name">Player2</p> <p>:</p> <p id="player2-win">0</p></div>
+            </div>    
+        </div>
+
+       <div class="game">
+            <button class="box" ></button>
+            <button class="box" ></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+       </div>
+       <div>
+             <button id="restart-btn">RESET</button>
+             <button id="quitBtn">QUIT</button>
+        </div>
+    </div>
+
+    <div class="inputPopUp">
+        <div class="inputBox">
+            <form >
+                <label> player for X :</label><br>
+                <input type="text" id="playerX-name" required placeholder="Enter Name">
+                <div id="vsBox">
+                    <div class="vsImage"></div>
+                </div>
+                <label> player for O :</label><br>
+                <input type="text" id="playerO-name" required placeholder="Enter Name"><br>
+                <button id="startGameBtn" type="submit">START GAME</button>
+            </form>
+    
+    
+        </div>
+    </div>
+
+    <div class="winPopUp">
+        <div class="winMsg-Box">
+            <div class="victory-Img"></div>
+            <div id="resultMsg">
+            <p>VICTORY ACHIEVED...!</p>
+            <p>PLAYER <SPan id="winWord">X</SPan> WINS...!</p>
+            </div>
+            <div id="btnbox">
+                <button id="playAgainBtn"> PLAY AGAIN</button>
+                <button id="mainMenuBtn"> MAIN MENU</button>
+            </div>
+           
+
+        </div>
+    </div>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
